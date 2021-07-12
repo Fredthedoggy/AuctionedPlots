@@ -1,0 +1,16 @@
+name: AuctionedPlots
+version: ${project.version}
+main: me.fredthedoggy.auctionedplots.AuctionedPlots
+api-version: 1.17
+prefix: AuctionedPlots
+authors: [ Fredthedoggy ]
+description: A WorldGuard Plot Auctioner
+depend: [ WorldGuard, Vault ]
+commands:
+  auctionedplots:
+    aliases: [ap, auctionplots, auctionedplot, auctionplot]
+permissions:
+  auctionplots.admin:
+    default: op
+  auctionplots.use:
+    default: not op

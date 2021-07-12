@@ -1,0 +1,11 @@
+plots:
+  # Plots Defined by WorldGuard Plot Name
+  shop-1:
+    name: &1Blue Shop
+    world: world
+    starting-price: 25
+    bid-increment: 10
+    # Auction Length (In Minutes)
+    auction-length: 30
+    # How often to host an auction (In Hours)
+    auction-repeat: 168 # Default = 1 Week
